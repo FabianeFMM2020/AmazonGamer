@@ -27,7 +27,7 @@
         android:textSize="18sp"
         android:fontFamily="@font/alfa_slab_one"
         android:textColor="@color/EscolhoVoce"
-        android:text="Olá Usuário" />
+        android:text="Olá Fabiane" />
 
     <Button
         android:id="@+id/button"
