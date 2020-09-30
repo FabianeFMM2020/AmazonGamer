@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/perfil"
+        android:icon="@drawable/person"
+        android:title="Perfil"/>
+
+    <item
+        android:id="@+id/adicionar_jogo"
+        android:icon="@drawable/add"
+        android:title="Adicionar Jogo"/>
+
+    <item
+        android:id="@+id/homegames"
+        android:icon="@drawable/feed"
+        android:title="Jogos"/>
+
+    <item
+        android:id="@+id/pesquisar_jogos"
+        android:icon="@drawable/search"
+        android:title="Pesquisar"/>
+
+    <item
+        android:id="@+id/chat"
+        android:icon="@drawable/ic_baseline_message_24"
+        android:title="Chat"/>
+
+</menu>

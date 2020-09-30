@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/fundo_degrade"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/logo1"
+            android:layout_width="160dp"
+            android:layout_height="152dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            app:srcCompat="@drawable/logo1" />
+
+        <ImageView
+            android:id="@+id/logo2"
+            android:layout_width="160dp"
+            android:layout_height="152dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="320dp"
+            app:srcCompat="@drawable/logo2" />
+
+        <ImageView
+            android:id="@+id/logo3"
+            android:layout_width="160dp"
+            android:layout_height="152dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="570dp"
+            app:srcCompat="@drawable/logo3" />
+
+        <ImageView
+            android:id="@+id/logo4"
+            android:layout_width="160dp"
+            android:layout_height="152dp"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="50dp"
+            app:srcCompat="@drawable/logo4" />
+
+        <ImageView
+            android:id="@+id/logo5"
+            android:layout_width="160dp"
+            android:layout_height="152dp"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="320dp"
+            app:srcCompat="@drawable/logo5" />
+
+        <ImageView
+            android:id="@+id/logo6"
+            android:layout_width="160dp"
+            android:layout_height="152dp"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="570dp"
+            app:srcCompat="@drawable/logo6" />
+
+        <TextView
+            android:id="@+id/txtBemVindo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="120dp"
+            android:fontFamily="@font/alfa_slab_one"
+            android:text="Bem-Vindo"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/btnCadastro"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="600dp"
+            android:onClick="Cadastro"
+            android:background="@drawable/background_botao"
+            android:text="Fazer Cadastro"
+            android:textColor="@drawable/txt_botao" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="215dp"
+            android:layout_marginTop="600dp"
+            android:background="@drawable/background_botao"
+            android:text="Fazer Login"
+            android:onClick="Login"
+            android:textColor="@drawable/txt_botao" />
+
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
