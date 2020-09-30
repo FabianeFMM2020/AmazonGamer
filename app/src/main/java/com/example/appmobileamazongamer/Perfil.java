@@ -26,7 +26,7 @@ public class Perfil extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_perfil);
 
-        //Cofigurar o tollbar
+        //Configuração do Tollbar
         Toolbar toolbar = findViewById(R.id.toolbarPrincipal);
         toolbar.setTitle("Amazon Gamer");
         setSupportActionBar(toolbar);
