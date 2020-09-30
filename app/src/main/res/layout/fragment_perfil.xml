@@ -27,7 +27,7 @@
         android:textSize="18sp"
         android:fontFamily="@font/alfa_slab_one"
         android:textColor="@color/EscolhoVoce"
-        android:text="Olá Fabiane" />
+        android:text="Olá Usuário" />
 
     <Button
         android:id="@+id/button"
@@ -37,6 +37,6 @@
         android:layout_marginTop="120dp"
         android:background="#4523"
         android:textColor="@drawable/txt_botao_esqueceu"
-        android:text=" Alterar Dados " />
+        android:text="Alterar Dados" />
 
 </FrameLayout>
